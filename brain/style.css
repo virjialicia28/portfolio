@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(skyblue, deeppink);
+    background-attachment: fixed;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    font-size: 8em;
+    text-align: center;
+    
+}
+
+#box1 {
+    background-color: lightcoral;
+    
+}
+#box2 {
+    background-color: lightseagreen;
+}
+#box3 {
+    background-color: lightgoldenrodyellow;
+}
+#box4 {
+    background-color: lightpink;
+}
+.container {
+    display: flex;
+    gap: 20px;
+}
